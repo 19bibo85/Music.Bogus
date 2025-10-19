@@ -10,7 +10,7 @@ namespace Music.Bogus.Loaders;
 
 public abstract class MusicDataLoader<T>
 {
-    private static readonly ConcurrentDictionary<string, IList<T>> Cache = [];
+    private static readonly ConcurrentDictionary<string, IList<T>> Cache = new();
 
     protected static IList<T> Entity(string name)
         => Cache.GetOrAdd(name, Load);
@@ -34,12 +34,12 @@ public abstract class MusicDataLoader<T>
         => entry
             => string.Equals(entry.Name, filename, StringComparison.InvariantCultureIgnoreCase)
                 ? Deserialize(entry)
-                : [];
+                : Enumerable.Empty<T>();
 
     private static IEnumerable<T> Deserialize(ZipArchiveEntry entry)
     {
         using var stream = entry.Open();
         using var reader = new StreamReader(stream);
-        return JsonSerializer.Deserialize<IEnumerable<T>>(reader.ReadToEnd()) ?? [];
+        return JsonSerializer.Deserialize<IEnumerable<T>>(reader.ReadToEnd()) ?? Enumerable.Empty<T>();
     }
 }

@@ -1,22 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net8.0;net9.0</TargetFrameworks>
+    
+    <PackageId>Music.Bogus</PackageId>
+    <Description>A simple project to create fake music data.</Description>
+    <PackageOutputPath>./nupkgs</PackageOutputPath>    
+    <PackageIcon>icon.png</PackageIcon>        
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="Data\data.zip" />
+    </ItemGroup>
     
     <ItemGroup>
-        <PackageReference Include="Bogus" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Remove="Data\data.zip" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <EmbeddedResource Include="data.zip" />
+        <EmbeddedResource Include="data.zip" />
     </ItemGroup>
 
 </Project>
