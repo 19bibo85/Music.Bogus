@@ -1,15 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0;net8.0;net9.0</TargetFrameworks>
-    
-    <PackageId>Music.Bogus</PackageId>
-    <Description>A simple project to create fake music data.</Description>
-    <PackageOutputPath>./nupkgs</PackageOutputPath>    
-    <PackageIcon>icon.png</PackageIcon>        
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+      <TargetFrameworks>net6.0;net8.0;net9.0</TargetFrameworks>
+      <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+      <PackageId>Music.Bogus</PackageId>
+      <Authors>Alberto Tosi Brandi</Authors>
+      <Description>A simple project to create fake music data.</Description>
+      <PackageOutputPath>./nupkgs</PackageOutputPath>
+      <PackageIcon>icon.png</PackageIcon>
+      <RepositoryUrl>https://github.com/19bibo85/Music.Bogus</RepositoryUrl>
+      <RepositoryType>git</RepositoryType>
+      <PackageProjectUrl>https://github.com/19bibo85/Music.Bogus</PackageProjectUrl>
+      <ImplicitUsings>enable</ImplicitUsings>
+      <Nullable>enable</Nullable>
+      <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
 
   <ItemGroup>

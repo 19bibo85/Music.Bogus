@@ -1,7 +1,7 @@
 <Project>
     <PropertyGroup>        
         <Version>1.0.1</Version>        
-        <AssemblyVersion>1.0.1</AssemblyVersion>
+        <AssemblyVersion>1.0.2</AssemblyVersion>
         <PackageTags>Music, Bogus</PackageTags>
         <ResolveAssemblyReferencesSilent>true</ResolveAssemblyReferencesSilent>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
