@@ -34,10 +34,10 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: Test
-        run: dotnet test --configuration Release --verbosity n
+        run: dotnet test --configuration Release --no-build --verbosity n
 
       - name: Pack
-        run: dotnet pack --configuration Release --output ./artifacts
+        run: dotnet pack --configuration Release --no-build --output ./artifacts
 
       - name: Publish to NuGet
         if: startsWith(github.ref, 'refs/tags/v')    # only publish on version tags
