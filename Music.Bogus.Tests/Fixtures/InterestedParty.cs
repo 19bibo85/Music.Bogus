@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Music.Bogus.Tests.Fixtures;
+﻿namespace Music.Bogus.Tests.Fixtures;
 
 internal sealed record InterestedParty
 {
