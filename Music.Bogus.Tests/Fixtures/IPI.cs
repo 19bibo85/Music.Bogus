@@ -7,7 +7,7 @@ internal sealed record IPI
         
     }
 
-    internal IPI(string? baseNumber, string? nameNumber, string? name)
+    internal IPI(string? baseNumber, long? nameNumber, string? name)
     {
         BaseNumber = baseNumber;
         NameNumber = nameNumber;
@@ -15,6 +15,6 @@ internal sealed record IPI
     }
     
     internal string? BaseNumber { get; set; }
-    internal string? NameNumber { get; set; }
+    internal long? NameNumber { get; set; }
     internal string? Name { get; set; }
 }

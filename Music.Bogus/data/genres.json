@@ -1,0 +1,334 @@
+[
+    {
+        "Code": "ALT",
+        "Name": "Alternative"
+    },
+    {
+        "Code": "AMBI",
+        "Name": "Ambient"
+    },
+    {
+        "Code": "BLU",
+        "Name": "Blues"
+    },
+    {
+        "Code": "CLAS",
+        "Name": "Classical"
+    },
+    {
+        "Code": "CNTRY",
+        "Name": "Country"
+    },
+    {
+        "Code": "DIS",
+        "Name": "Disco"
+    },
+    {
+        "Code": "DNB",
+        "Name": "Drum and Bass"
+    },
+    {
+        "Code": "DUB",
+        "Name": "Dub"
+    },
+    {
+        "Code": "EDM",
+        "Name": "Electronic Dance Music"
+    },
+    {
+        "Code": "ELEC",
+        "Name": "Electronic"
+    },
+    {
+        "Code": "EXPR",
+        "Name": "Experimental"
+    },
+    {
+        "Code": "FOLK",
+        "Name": "Folk"
+    },
+    {
+        "Code": "FUNK",
+        "Name": "Funk"
+    },
+    {
+        "Code": "GOS",
+        "Name": "Gospel"
+    },
+    {
+        "Code": "HIP",
+        "Name": "Hip Hop"
+    },
+    {
+        "Code": "HOPH",
+        "Name": "Hip House"
+    },
+    {
+        "Code": "HOUSE",
+        "Name": "House"
+    },
+    {
+        "Code": "INDI",
+        "Name": "Indie"
+    },
+    {
+        "Code": "INST",
+        "Name": "Instrumental"
+    },
+    {
+        "Code": "JAZ",
+        "Name": "Jazz"
+    },
+    {
+        "Code": "KPOP",
+        "Name": "K-Pop"
+    },
+    {
+        "Code": "LAT",
+        "Name": "Latin"
+    },
+    {
+        "Code": "LOFI",
+        "Name": "Lo-Fi"
+    },
+    {
+        "Code": "MET",
+        "Name": "Metal"
+    },
+    {
+        "Code": "POP",
+        "Name": "Pop"
+    },
+    {
+        "Code": "PUNK",
+        "Name": "Punk"
+    },
+    {
+        "Code": "RNB",
+        "Name": "R&B / Rhythm and Blues"
+    },
+    {
+        "Code": "REG",
+        "Name": "Reggae"
+    },
+    {
+        "Code": "ROCK",
+        "Name": "Rock"
+    },
+    {
+        "Code": "SOUL",
+        "Name": "Soul"
+    },
+    {
+        "Code": "TECH",
+        "Name": "Techno"
+    },
+    {
+        "Code": "TRAP",
+        "Name": "Trap"
+    },
+    {
+        "Code": "TRNC",
+        "Name": "Trance"
+    },
+    {
+        "Code": "WORL",
+        "Name": "World"
+    },
+    {
+        "Code": "AFRO",
+        "Name": "Afrobeats"
+    },
+    {
+        "Code": "SKA",
+        "Name": "Ska"
+    },
+    {
+        "Code": "GRUN",
+        "Name": "Grunge"
+    },
+    {
+        "Code": "INDR",
+        "Name": "Industrial"
+    },
+    {
+        "Code": "DUBS",
+        "Name": "Dubstep"
+    },
+    {
+        "Code": "DRIL",
+        "Name": "Drill"
+    },
+    {
+        "Code": "SAL",
+        "Name": "Salsa"
+    },
+    {
+        "Code": "BACH",
+        "Name": "Bachata"
+    },
+    {
+        "Code": "FLAM",
+        "Name": "Flamenco"
+    },
+    {
+        "Code": "TROP",
+        "Name": "Tropical"
+    },
+    {
+        "Code": "LOUN",
+        "Name": "Lounge"
+    },
+    {
+        "Code": "OPER",
+        "Name": "Opera"
+    },
+    {
+        "Code": "CHIL",
+        "Name": "Chillout"
+    },
+    {
+        "Code": "GAME",
+        "Name": "Video Game Music"
+    },
+    {
+        "Code": "FILM",
+        "Name": "Film Score / Soundtrack"
+    },
+    {
+        "Code": "CHOR",
+        "Name": "Choral"
+    },
+    {
+        "Code": "MARC",
+        "Name": "March"
+    },
+    {
+        "Code": "POLK",
+        "Name": "Polka"
+    },
+    {
+        "Code": "BLUG",
+        "Name": "Bluegrass"
+    },
+    {
+        "Code": "CELT",
+        "Name": "Celtic"
+    },
+    {
+        "Code": "OPRN",
+        "Name": "Operatic Pop"
+    },
+    {
+        "Code": "SYN",
+        "Name": "Synthpop"
+    },
+    {
+        "Code": "GOTH",
+        "Name": "Gothic Rock"
+    },
+    {
+        "Code": "PSYC",
+        "Name": "Psychedelic"
+    },
+    {
+        "Code": "SKA2",
+        "Name": "2-Tone Ska"
+    },
+    {
+        "Code": "DISM",
+        "Name": "Disco Music"
+    },
+    {
+        "Code": "CUMB",
+        "Name": "Cumbia"
+    },
+    {
+        "Code": "SAMB",
+        "Name": "Samba"
+    },
+    {
+        "Code": "BOSS",
+        "Name": "Bossa Nova"
+    },
+    {
+        "Code": "JPOP",
+        "Name": "J-Pop"
+    },
+    {
+        "Code": "JROK",
+        "Name": "J-Rock"
+    },
+    {
+        "Code": "CHIN",
+        "Name": "Chinese Traditional"
+    },
+    {
+        "Code": "KCLS",
+        "Name": "Korean Classical"
+    },
+    {
+        "Code": "ARAB",
+        "Name": "Arabic Music"
+    },
+    {
+        "Code": "TURK",
+        "Name": "Turkish Music"
+    },
+    {
+        "Code": "FREN",
+        "Name": "French Chanson"
+    },
+    {
+        "Code": "GERM",
+        "Name": "German Schlager"
+    },
+    {
+        "Code": "ITAP",
+        "Name": "Italo Pop"
+    },
+    {
+        "Code": "SPFL",
+        "Name": "Spanish Flamenco"
+    },
+    {
+        "Code": "BALK",
+        "Name": "Balkan Folk"
+    },
+    {
+        "Code": "RAP",
+        "Name": "Rap"
+    },
+    {
+        "Code": "DRUM",
+        "Name": "Drumstep"
+    },
+    {
+        "Code": "MOTN",
+        "Name": "Motown"
+    },
+    {
+        "Code": "GARG",
+        "Name": "Garage"
+    },
+    {
+        "Code": "DOWT",
+        "Name": "Downtempo"
+    },
+    {
+        "Code": "TRIB",
+        "Name": "Tribal"
+    },
+    {
+        "Code": "PROG",
+        "Name": "Progressive Rock"
+    },
+    {
+        "Code": "PSTH",
+        "Name": "Post-Hardcore"
+    },
+    {
+        "Code": "ALTRO",
+        "Name": "Alternative Rock"
+    }
+]
